@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/yousef/Desktop/website"
+		},
+		{
+			"path": "/Users/yousef/Desktop/Reisepasse"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Reisepasse",
+		"liveServer.settings.port": 5501
+	}
+}
