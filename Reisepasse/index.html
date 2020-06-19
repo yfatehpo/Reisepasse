@@ -16,12 +16,14 @@
     <title>Reisepasse</title>
     <link rel="icon" type="image/png" href="favicon.png">
 
+    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
     <style>
 
         
         html {
             font-family: Helvetica, sans-serif;
-            background: black;
+            background: var(--background-color);
         }
 
         .intro {
@@ -40,22 +42,22 @@
             margin-top: 100px;
         }
 
+
         .link {
             position: fixed;
-            background-color: rgb(255, 255, 255);
-            border: rgb(97, 1, 1) solid 6px;
+            background-color: var(--background-color);
+            border: var(--border-color) solid 6px;
             border-radius: 4px;
             margin-top: 160px;
             margin-left: 10px;
             padding: 5px;
             color: black;
-            background-color: black;
         }
 
         .link2 {
             position: fixed;
-            background-color: rgb(255, 255, 255);
-            border: rgb(97, 1, 1) solid 6px;
+            background-color: var(--background-colors);
+            border: var(--border-color) solid 6px;
             border-radius: 4px;
             margin-top: 230px;
             margin-left: 10px;
@@ -65,20 +67,22 @@
         }
 
         .txt {
-            background: black;
-            border: rgb(97, 1, 1) solid 4px;
+            background: var(--background-color);
+            border: var(--border-color) solid 4px;
             margin-left: 590px;
             padding: 15px;
             width: 500px;
             border-radius: 3px;
-            color: rgb(255, 244, 244);
+            color: var(--text-color);
         }
 
         .txt h1 {
             padding-top: 0px;
             font-size: 30px;
             line-height: 30px;
-            color: rgb(255, 244, 244);
+            color: var(--h1-color);
+            text-shadow: 0px 1px var(--text-shadow);
+            -webkit-text-stroke: 1px var(--stroke-color);
         }
 
         .txt h2 {
@@ -90,7 +94,7 @@
         .txt p {
             font-size: .9rem;
             font-family: serif;
-            border: rgb(97, 0, 0) solid 2px;
+            border: var(--border-color) solid 2px;
             border-radius: 5px;
             padding: 7px;
         }
@@ -98,7 +102,7 @@
         .txt ul {
             font-size: .9rem;
             font-family: serif;
-            border: rgb(97, 1, 1) solid 2px;
+            border: var(--border-color) solid 2px;
             border-radius: 5px;
             padding: 30px;
         }
@@ -118,7 +122,7 @@
 
         a {
             text-decoration: none;
-            color: rgb(253, 242, 242);
+            color: var(--link-color);
         }
         
         @media screen and (max-width: 800px) {
@@ -210,7 +214,7 @@
         <h2>Immediacy</h2>
         <p>Today, we'll be dumping a stockpile of texts that will be mere redirects to their Project Gutenberg HTML pages.
             Book covers and ePubs will be added throughout the week, but for now, we've created a single placeholder image until
-            we've the privilege to tend to aesthetics. 
+            we the privledge to tend to aesthetics. 
         </p>
 
     </div>
@@ -231,7 +235,7 @@
             out the Public Domain's full contemporary potential, but for now, here are some texts written after 1924, written for our world.
             Links to each are provided.
 
-            
+            <br><br>
             
             <ul>
                 <li><a href="https://www.versobooks.com/books/2325-if-they-come-in-the-morning">If They Come in the Morning</a>, Edited by Angela Davis</li>

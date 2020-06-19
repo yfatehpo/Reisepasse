@@ -1,0 +1,23 @@
+:root {
+    --background-color: rgb(0,0,0);
+    --border-color: rgb(97, 1, 1);
+    --link-color: rgb(253, 242, 242);
+    --img-color: rgb(97, 1, 1);
+    --text-color: rgb(253, 242, 242)
+}
+/*
+html {
+    background: black;
+}
+
+div {
+    border: rgb(97, 1, 1) solid 6px;
+}
+
+a, p, h3 {
+    color: rgb(253, 242, 242);
+}
+
+img {
+    border: rgb(97, 1, 1) solid 6px;
+}
